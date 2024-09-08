@@ -9,31 +9,7 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div class="container">
-      <form novalidate onsubmit="handleFormSubmit(event)">
-        
-        <label for="amount" class="form-label ">choose expense amount</label>
-        <div class="input-group">
-        <div class="input-group-text">$</div>
-        <input type="amount" name="amount" id="amount" class="form-control" required/>
-        <div class="input-group-text">.00</div>
-        </div>
-        <label for="text" class="form-label">choose description</label>
-        <input type="text" name="text" id="text" class="form-control" required/>
-        <label for="cate" class="form-label">Choose a category</label>
-        
-        <select class="form-select" name="cate" id="cate" >
-          <option>Fuel</option>
-          <option>Food</option>
-          <option>Electricty</option>
-          <option>Movie</option>
-          
-        </select>
-        <button type="submit">Submit</button>
-      </form>
-      <ul id="listOfItems"></ul>
-      
-    </div>
+    
     
   </body>
   <script src="index.js"></script>
